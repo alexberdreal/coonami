@@ -5,8 +5,8 @@ add_subdirectory(utils)
 target_link_libraries(
         coonami INTERFACE
         ${BOOST_LIBRARIES}
+        utils
         client
         server
-        utils
 )
 

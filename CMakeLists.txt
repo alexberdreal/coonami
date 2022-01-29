@@ -7,4 +7,5 @@ message("BOOST found")
 
 add_subdirectory(contrib)
 add_subdirectory(lib)
+add_subdirectory(app)
 

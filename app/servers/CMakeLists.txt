@@ -1,0 +1,2 @@
+add_executable(gamer_server gamer_server.cpp)
+target_link_libraries(gamer_server coonami)
